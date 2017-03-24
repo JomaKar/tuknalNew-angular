@@ -1,0 +1,17 @@
+.txtArea{
+	width: 100vw;
+	height: 115px;
+	text-align: center;
+	color: white;
+	background-color: #f47d1f;
+	padding: 30px;
+}
+
+.text{
+	font-size: 30px;
+	margin: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+}

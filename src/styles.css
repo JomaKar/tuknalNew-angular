@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+	margin: 0 !important;
+	padding: 0 !important;
+	background-color: #4D4C4C;
+}
+
+@font-face{
+	font-family: Helvetica Neue;
+	src: url(./libs/Helvetica Neue/HelveticaNeue.ttf);
+}
+
+.noPadding{
+	padding: 0 !important;
+}
+
+.marginAuto{
+	display: block;
+	margin: 0 auto;
+}
+
+.flexDisplay{
+	display: flex;
+}

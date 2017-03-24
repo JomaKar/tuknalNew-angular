@@ -1,0 +1,10 @@
+.brandsParentDiv{
+	display: flex;
+	justify-content: center;
+}
+
+
+.brandsContainer{
+	background-color: white;
+}
+

@@ -1,0 +1,14 @@
+<div class="row flexDisplay menuRow">
+	<div class="col-xs-12 marginAuto noPadding" [noMoreGrow]="1350">
+		<div class="topMenu">
+			<p class="logoName"><span class="logoIcon" (click)="toHome()">TU<span class="k-letter">K</span>NAL</span></p>
+			<span (click)="dropMenu(dropdownMenu)" class="burguerCont"><i class="burguer glyphicon glyphicon-align-justify" aria-hidden="true"></i></span>
+			<div #dropdownMenu class="dropDownMenu" >
+				<ul class="menuList">
+					<li (click)="dropMenu(dropdownMenu)"><a routerLink="/about">Sobre Nosotros</a></li>
+					<li (click)="dropMenu(dropdownMenu)">Productos</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

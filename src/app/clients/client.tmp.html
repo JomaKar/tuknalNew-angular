@@ -1,0 +1,12 @@
+<div class="row-fluid noPadding brandsParentDiv">
+	<div class="col-xs-12 noPadding brandsContainer" [noMoreGrow]="1350">
+		<div class="row-fluid">
+			<div class="col-xs-4 col-sm-3" correctElementHightOnGrid *ngFor="let cliente of clients">
+				<img src="{{cliente.logo}}" alt="{{cliente.nombre}}" class="img-responsive">
+			</div>	
+		</div>
+	</div>	
+</div>
+<orange-line [textMe]="myLineTxt"></orange-line>
+
+

@@ -1,0 +1,65 @@
+footer{
+	width: 100vw;
+	height: 180px;
+	background-color: black;
+}
+
+.linksSection{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.linksCont{
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	min-height: 122px;
+	margin-top: 20px;
+}
+
+.linksCont a, .mediaSection a, .footerAnchor {
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+.bottomSection{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	min-height: 36px;
+	border-top: 1px solid gray;
+}
+
+.termsSection{
+	width: 80%;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+
+.mediaSection{
+	padding-right: 10px;
+	text-align: right;
+}
+
+.rightsAndLegalComment{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	flex-wrap: wrap;
+}
+
+
+
+.linksCont a:hover, .mediaSection a:hover, .footerAnchor:hover{
+	color: #EDEDED;
+} 
+
+.footerAnchor{
+	font-size: 12px;
+}

@@ -1,0 +1,61 @@
+.parentDiv{
+	display: flex;
+	justify-content: center;
+}
+
+
+.serviceSquare{
+	min-height: 200px;
+}
+
+.grayDarkerSquare{
+	background-color: #b5b3b4;
+}
+
+.graySquare{
+	background-color: #d5d3d4;
+}
+
+.whiteAbove{
+	background-color: white;
+}
+
+.textCont{
+	border-bottom: 1px solid gray;
+	background-color: white;
+}
+
+@media(min-width: 768px){
+	.textCont{
+		border-bottom: none;
+	}	
+}
+
+
+@media(min-width: 992px){
+	
+	.graySquare.darkGrayBtwMd{
+		background-color: #b5b3b4;
+	}
+
+
+	.grayDarkerSquare.normalGrayBtwMd{
+		background-color: #d5d3d4;
+	}
+
+}
+
+@media(min-width: 1200px){
+	.grayDarkerSquare.normalGrayBtwMd{
+		background-color: #b5b3b4;
+	}
+
+	.graySquare.darkGrayBtwMd{
+		background-color: #d5d3d4;
+	}
+
+}
+
+.srvTxtHead{
+	max-height: 26px;
+}

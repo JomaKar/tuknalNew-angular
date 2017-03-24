@@ -1,0 +1,77 @@
+.contactInfoCont{
+	min-height: 450px;
+	background-color: #2A2A2A;
+	margin: auto;
+	display: flex;
+}
+
+.infoPart{
+	height: 380px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	min-height: 450px;
+	background-color: #1C1C1C;
+}
+
+.mapCont{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.mapG{
+	width: 100%;
+}
+
+.contactPlaceH1{
+	font-family: sans-serif;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 0.3);
+	letter-spacing: 1.2px;
+	transform: scale(1.1, 1.1);
+	padding-left: 8px;
+}
+
+.activeDiv{
+	width: 105%;
+	height: 9px;
+	display: block;
+	position: relative;
+	margin-bottom: 10px;
+
+}
+
+.activeDiv.changeable{
+	background-color: #f47d1f;
+	top: 0;
+	right: -104%;
+	transition: linear 200ms all;
+	margin-right: 15px;
+}
+
+.streetPlaceContact.activeSection  .activeDiv.changeable{
+	top: 0;
+	right: 0;
+	margin-right: 0;
+}
+
+.contactSectionName{
+	color: #EDEDED;
+	border-bottom: 1px solid #444444;
+	margin-left: 15px;
+	padding-bottom: 17px;
+}
+
+.canSec{
+	padding-left: 0 !important;
+}
+
+.streetPlaceContact, .cdmxSec p, .canSec p{
+	color: #828282;
+	letter-spacing: 0.6px;
+	font-weight: lighter;
+}
+
+.streetPlaceContact.activeSection, .cdmxSec.activeSection p, .canSec.activeSection p{
+	color: #d2d2d2 !important;
+}
